@@ -6,7 +6,7 @@ This is a Maven project for a Java RMI (Remote Method Invocation) application. T
 
 The project is organized as follows:
 
-/home/zoahn/Pictures/Screenshots/Screenshot from 2024-11-03 11-41-22.png
+![My Image](images/structure.png)
 
 markdown
 Copier le code
