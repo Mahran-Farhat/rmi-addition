@@ -8,9 +8,6 @@ The project is organized as follows:
 
 ![My Image](images/structure.png)
 
-markdown
-Copier le code
-
 ## Explanation of Each Part
 
 ### 1. rmi-shared
