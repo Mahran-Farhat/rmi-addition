@@ -34,6 +34,7 @@ public class AdditionClient {
             int result = addition.add(a, b);
             System.out.println("Result of "+a+" + "+b+" is: " + result);
         } catch (Exception e) {
+            System.out.println("Found a solution to the problem");
             e.printStackTrace();
         }
     }
