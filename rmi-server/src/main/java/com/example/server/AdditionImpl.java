@@ -12,7 +12,7 @@ public class AdditionImpl extends UnicastRemoteObject implements Addition {
     }
 
     @Override
-    public int add(int a, int b) throws RemoteException {
+    public Integer add(Integer a, Integer b) throws RemoteException {
         System.out.println("Calculate the total of "+a+" + "+b);
         return a + b;
     }
