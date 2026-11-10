@@ -34,8 +34,11 @@ public class AdditionClient {
 
             Registry registry = LocateRegistry.getRegistry("localhost", 1099);
             Addition addition = (Addition) registry.lookup(Service.AdditionService.name());
-
+            System.out.println("Successfully connected to the Addition RMI service. " +
+                    "We will use it");
             Integer result = addition.add(a, b);
+            System.out.println("Waiting for 10 seconds before displaying the result...");
+            Thread.sleep(10000);
             System.out.println("Result of "+a+" + "+b+" is: " + result);
 
         } catch (Exception e) {

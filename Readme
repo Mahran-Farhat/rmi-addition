@@ -74,7 +74,7 @@ In your AdditionServer.java, the server starts and registers the Addition servic
 
 bash
 |
-|----------java -cp rmi-server/target/rmi-server-1.0-SNAPSHOT.jar com.example.server.AdditionServer
+|----------java -cp rmi-server/target/rmi-server-1.0-SNAPSHOT.jar com.example.server.RmiServer
 
 4. Run the RMI Client
 The AdditionClient.java will connect to the RMI server to use the Addition service. Run the client from the command line:

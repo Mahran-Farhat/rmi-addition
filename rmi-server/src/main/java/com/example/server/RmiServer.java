@@ -7,7 +7,7 @@ import java.rmi.registry.Registry;
 import com.example.shared.Addition;
 import com.example.shared.Service;
 
-public class AdditionServer {
+public class RmiServer {
     public static void main(String[] args) {
         final int registryPort = 1099;
         try {
